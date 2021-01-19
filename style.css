@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    width: 1200px;
+    color: #6c6d70;
+    text-shadow: 1px 1px;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1em;
+    color: #6c6d70;
+}
+
+/* //LEGEND D IMAGE BLOC CONTENEUR */
+figcaption a{
+    text-decoration: none;
+    color: #ededed;;
+    font-size: 1em;
+    bottom: 10px;
+    position: absolute;
+    left: 135px;
+}
+
+
+footer{
+    padding: 30px;
+}
+footer a{
+    font-size: 0.8em;
+    padding: 2px;
+    color: black;
+  
+}
+footer i{
+    padding: 15px;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+hr{
+    box-shadow: 14px -1px 15px 3px white;
+    color: transparent;
+}
+
+/* //COLOR */
+
+.color-orange{
+    color: #f99f3d;
+}
+.color-gray{
+    color: #6c6d70;
+}
+
+.bg-grey-light{
+    background-color: #eeeeee;
+}
+.bg-grey-vLight{
+    background-color: #ececec;
+}
+.bg-grey{
+    background-color: #ededed;
+}
+div .banniere p{
+    color:#2F4F4F;
+}
+
+/* //DISPLAY */
+
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* //PADDING */
+
+.pad-40-0{
+    padding: 40px 0;
+}
+.margin-b-20{
+    margin-bottom: 20px;
+}
+
+/* //BANNIERE */
+.banniere{
+    line-height: 28px;
+    padding-top: 20px;
+}
+
+/* //CONTENEUR */
+
+#contain{
+    width: 900px;
+  
+}
+
+.paragraphe{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    line-height: 28px;
+}
+
+/* //LIENS AUTRES PAGES */
+.numPage {
+   
+    padding: 21px;
+}
+.numPage a{
+    color: #f99f3d;
+    text-decoration: none;
+   
+    
+}
+
+.banniere img{
+    margin-top: 20px;
+    box-shadow: 1px -7px 3px -4px gray;
+}
+
+.right img{
+    margin-top: 20px;
+    box-shadow: 1px -7px 3px -4px gray;
+    border: none;
+}
+
+/* //IMAGE DU CONTENER */
+.border-white-14{
+    border: 14px solid white;
+}
+
+.p-rel{
+    position: relative;
+}
+.p-abs{
+    position: absolute;
+}
+.trois_img{
+    position: absolute;
+    bottom: 20px;
+}
